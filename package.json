@@ -1,0 +1,30 @@
+{
+  "name": "pornhub-desktop",
+  "version": "0.1.1a",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "ml.liamsi.pornhubdesktop",
+    "mac": {
+      "category": "ml.liamsi.pornhubdesktop"
+    }
+  },
+  "repository": "https://github.com/mrliamsi/pornhub-desktop",
+  "keywords": [
+    "Liamsi",
+    "PornHub",
+    "NodeJS",
+    "ElectronJS"
+  ],
+  "author": "L14ms1",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.6",
+    "electron-builder": "^20.38.5"
+  }
+}
